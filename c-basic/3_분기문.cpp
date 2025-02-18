@@ -4,54 +4,54 @@ void main()
 {/*
 	int a = 6;
 
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf_s("%d", &a);
 
 	if (a > 5) 
 	{
-		printf("a´Â 5º¸´Ù Å©´Ù\n");
+		printf("aëŠ” 5ë³´ë‹¤ í¬ë‹¤\n");
 	} 
 	else if (a < 5) 
 	{
-		printf("a´Â 5º¸´Ù ÀÛ´Ù\n");
+		printf("aëŠ” 5ë³´ë‹¤ ì‘ë‹¤\n");
 	} 
 	else if (a == 5)
 	{
-		printf("a´Â 5´Ù!\n");
+		printf("aëŠ” 5ë‹¤!\n");
 	}
 	else
 	{
-		printf("a°ªÀÌ À¯È¿ÇÏÁö ¾Ê´Ù..\n");
+		printf("aê°’ì´ ìœ íš¨í•˜ì§€ ì•Šë‹¤..\n");
 	}*/
 
 	// ===========================================================================
-	// switch - case ¹®
+	// switch - case ë¬¸
 	/*int shortcut = 0;
 
-	printf("´ÜÃàÅ°¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ë‹¨ì¶•í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf_s("%d", &shortcut);
 
 	switch (shortcut) 
 	{
 	case 1 :
-		printf("µş : 010-xxxx-xxxx ÀüÈ­¸¦ °Ç´Ù.");
+		printf("ë”¸ : 010-xxxx-xxxx ì „í™”ë¥¼ ê±´ë‹¤.");
 		break;
 	case 2 :
-		printf("¾Æµé : 010-xxxx-xxxx ÀüÈ­¸¦ °Ç´Ù.");
+		printf("ì•„ë“¤ : 010-xxxx-xxxx ì „í™”ë¥¼ ê±´ë‹¤.");
 		break;
 	case 3 :
-		printf("Ä£±¸ : 010-xxxx-xxxx ÀüÈ­¸¦ °Ç´Ù.");
+		printf("ì¹œêµ¬ : 010-xxxx-xxxx ì „í™”ë¥¼ ê±´ë‹¤.");
 		break;
 	default :
-		printf("ÇØ´ç ´ÜÃàÅ°°¡ ¾ø½À´Ï´Ù.");
+		printf("í•´ë‹¹ ë‹¨ì¶•í‚¤ê°€ ì—†ìŠµë‹ˆë‹¤.");
 		break;
 	}*/
 
 	// ===========================================================================
-	// ¿ù ÀÔ·ÂÇÏ¼¼¿ä ¹®Á¦ Ç®ÀÌ ~~
+	// ì›” ì…ë ¥í•˜ì„¸ìš” ë¬¸ì œ í’€ì´ ~~
 	int month = 0;
 
-	printf("¿ùÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ì›”ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf_s("%d", &month);
 
 	switch (month)
@@ -59,25 +59,25 @@ void main()
 	case 12:
 	case 1:
 	case 2:
-		printf("°Ü¿ï ÀÔ´Ï´Ù.");
+		printf("ê²¨ìš¸ ì…ë‹ˆë‹¤.");
 		break;
 	case 3:
 	case 4:
 	case 5:
-		printf("º½ÀÔ´Ï´Ù.");
+		printf("ë´„ì…ë‹ˆë‹¤.");
 		break;
 	case 6:
 	case 7:
 	case 8:
-		printf("¿©¸§ÀÔ´Ï´Ù.");
+		printf("ì—¬ë¦„ì…ë‹ˆë‹¤.");
 		break;
 	case 9:
 	case 10:
 	case 11:
-		printf("°¡À»ÀÔ´Ï´Ù.");
+		printf("ê°€ì„ì…ë‹ˆë‹¤.");
 		break;
 	default:
-		printf("ÇØ´çÇÏ´Â ¿ùÀÌ ¾ø½À´Ï´Ù.");
+		printf("í•´ë‹¹í•˜ëŠ” ì›”ì´ ì—†ìŠµë‹ˆë‹¤.");
 		break;
 	}
 }

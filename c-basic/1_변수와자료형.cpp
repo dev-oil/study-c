@@ -1,39 +1,39 @@
 #include<stdio.h>
 
 void main() {
-	// ÀÚ·áÇü(Å¸ÀÔ) º¯¼ö¸í;
-	int value; // 4byte ÇÒ´ç
+	// ìë£Œí˜•(íƒ€ì…) ë³€ìˆ˜ëª…;
+	int value; // 4byte í• ë‹¹
 	value = 100; 
 
-	int num = 5; // ÃÊ±âÈ­
+	int num = 5; // ì´ˆê¸°í™”
 
-	// ¼­½Ä »ç¿ë ¹ı
-	printf("%d %d\n", value, num); // ¼­½Ä »ç¿ë - 100 5
-	// %d ¿¡¼­ d ÀÇ ÀÇ¹Ì decimal(10Áø¼ö)
-	// o - octar (8Áø¼ö)
-	// h - hexa (16Áø¼ö)
-	// f - float (10Áø ½Ç¼ö)
-	// c - char (´ÜÀÏ ¹®ÀÚ)
-	// s - string (¹®ÀÚ¿­)
+	// ì„œì‹ ì‚¬ìš© ë²•
+	printf("%d %d\n", value, num); // ì„œì‹ ì‚¬ìš© - 100 5
+	// %d ì—ì„œ d ì˜ ì˜ë¯¸ decimal(10ì§„ìˆ˜)
+	// o - octar (8ì§„ìˆ˜)
+	// h - hexa (16ì§„ìˆ˜)
+	// f - float (10ì§„ ì‹¤ìˆ˜)
+	// c - char (ë‹¨ì¼ ë¬¸ì)
+	// s - string (ë¬¸ìì—´)
 
-	// char Çü
+	// char í˜•
 	int value = 100;
-	char ch = 'C'; // '' (´ÜÀÏ ¹®ÀÚÀÏ ¶§), "" (¹®ÀÚ¿­ÀÏ ¶§) 
-	printf("Á¤¼ö : %d, ¹®ÀÚ : %c\n", value, ch);
+	char ch = 'C'; // '' (ë‹¨ì¼ ë¬¸ìì¼ ë•Œ), "" (ë¬¸ìì—´ì¼ ë•Œ) 
+	printf("ì •ìˆ˜ : %d, ë¬¸ì : %c\n", value, ch);
 
-	// Á¤¼öÇü
+	// ì •ìˆ˜í˜•
 	int width = 10;
 	int height = 20;
-	printf("»ç°¢ÇüÀÇ ³ĞÀÌ : %d\n", width * height);
+	printf("ì‚¬ê°í˜•ì˜ ë„“ì´ : %d\n", width * height);
 
-	// ½Ç¼öÇü : ¼Ò¼öÁ¡À» °¡Áö´Â ¼ö : ºÎµ¿¼Ò¼öÁ¡
+	// ì‹¤ìˆ˜í˜• : ì†Œìˆ˜ì ì„ ê°€ì§€ëŠ” ìˆ˜ : ë¶€ë™ì†Œìˆ˜ì 
 	double area = 0.0;
 	int radius = 5;
 	area = radius * radius * 3.14;
-	printf("¿øÀÇ ³ĞÀÌ %f \n", area); // 78.500000
-	printf("¿øÀÇ ³ĞÀÌ %.2f \n", area); // 78.50
+	printf("ì›ì˜ ë„“ì´ %f \n", area); // 78.500000
+	printf("ì›ì˜ ë„“ì´ %.2f \n", area); // 78.50
 
-	// ¹®ÀÚÇü
+	// ë¬¸ìí˜•
 	char ch1 = 'A';
 	char ch2 = 'b';
 	char ch3 = '1';
@@ -44,11 +44,11 @@ void main() {
 	printf("%c %d\n", ch3, ch3);
 
 	// scanf 
-	// ÀÔ·Â ¹ŞÀ» ½Ã »ç¿ëÇÏ´Â 
+	// ì…ë ¥ ë°›ì„ ì‹œ ì‚¬ìš©í•˜ëŠ” 
 	int input1 = 0;
 	int input2 = 0;
 
-	scanf_s("%d%d", &input1, &input2); // ÇÑÁÙ·Î ÇÏ´Â ¹ı / ¿Ö &°¡ ºÙ¾úÀ»±î? ÁÖ¼Ò°ªÀ¸·Î Ã£¾Æ°¡±â À§ÇØ¼­
+	scanf_s("%d%d", &input1, &input2); // í•œì¤„ë¡œ í•˜ëŠ” ë²• / ì™œ &ê°€ ë¶™ì—ˆì„ê¹Œ? ì£¼ì†Œê°’ìœ¼ë¡œ ì°¾ì•„ê°€ê¸° ìœ„í•´ì„œ
 	//scanf_s("%d", &input2);
 
 	printf("%d\n", input1 + input2);

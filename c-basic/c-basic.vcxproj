@@ -18,6 +18,31 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="0_hello_world.cpp" />
+    <ClCompile Include="1_변수와자료형.cpp" />
+    <ClCompile Include="2_연산자.cpp" />
+    <ClCompile Include="3_분기문.cpp" />
+    <ClCompile Include="4_반복문.cpp" />
+    <ClCompile Include="과제1-1_서식문자열.cpp" />
+    <ClCompile Include="과제2-1_연산자.cpp" />
+    <ClCompile Include="과제2-2-입출력.cpp" />
+    <ClCompile Include="과제2-3_입출력.cpp" />
+    <ClCompile Include="과제2-4_연산자.cpp" />
+    <ClCompile Include="과제2-5_연산자.cpp" />
+    <ClCompile Include="과제2-6_입출력.cpp" />
+    <ClCompile Include="과제2-7_입출력.cpp" />
+    <ClCompile Include="과제3-1_분기문.cpp" />
+    <ClCompile Include="과제3-2_분기문.cpp" />
+    <ClCompile Include="과제3-3_분기문.cpp" />
+    <ClCompile Include="과제3-4_분기문.cpp" />
+    <ClCompile Include="과제3-6_분기문.cpp" />
+    <ClCompile Include="과제3-7_분기문.cpp" />
+    <ClCompile Include="과제3-8_분기문.cpp" />
+    <ClCompile Include="과제4-1_반복문_switch.cpp" />
+    <ClCompile Include="과제4-2_반복문_switch.cpp" />
+    <ClCompile Include="과제4-3_반복문.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,31 +151,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Downloads\0_hello_world.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\1_변수와자료형.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\3_분기문.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\4_반복문.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제1-1_서식문자열.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제2-1_연산자.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제2-2-입출력.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제2-3_입출력.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제2-4_연산자.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제2-5_연산자.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제2-6_입출력.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제2-7_입출력.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제3-1_분기문.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제3-2_분기문.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제3-3_분기문.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제3-4_분기문.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제3-6_분기문.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제3-7_분기문.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제3-8_분기문.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제4-1_반복문_switch.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\과제4-2_반복문_switch.cpp" />
-    <ClCompile Include="2_연산자.cpp" />
-    <ClCompile Include="과제4-3_반복문.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -4,5 +4,5 @@ void main() {
 	int age = 27;
 	char grade = 'A';
 
-	printf("ÀÌ¸§ : ±èÀ¯È­\n³ªÀÌ : %d\n¼ºÀû : %c", age, grade);
+	printf("ì´ë¦„ : ê¹€ìœ í™”\në‚˜ì´ : %d\nì„±ì  : %c", age, grade);
 }

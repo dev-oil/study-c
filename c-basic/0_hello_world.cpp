@@ -1,6 +1,6 @@
-#include<stdio.h> // #ÀüÃ³¸®±â
+#include<stdio.h> // #ì „ì²˜ë¦¬ê¸°
 
-/* ¿©·¯ ÁÙ ÁÖ¼® Ã³¸®
+/* ì—¬ëŸ¬ ì¤„ ì£¼ì„ ì²˜ë¦¬
 Date : 2025.02.17
 author : lch
 remark : Hello World to the screen output

@@ -1,17 +1,17 @@
 #include<stdio.h>
 
 void main() {
-	// »ê¼ú ¿¬»êÀÚ
+	// ì‚°ìˆ  ì—°ì‚°ì
 	//int a = 5;
 	//int b = 3;
 
-	//printf("µÎ ¼öÀÇ ÇÕ : %d\n", a + b);
-	//printf("µÎ ¼öÀÇ Â÷ : %d\n", a - b);
-	//printf("µÎ ¼öÀÇ °ö : %d\n", a * b);
-	//printf("µÎ ¼öÀÇ ¸ò : %d\n", a / b);
-	//printf("µÎ ¼öÀÇ ³ª¸ÓÁö : %d\n", a % b);
+	//printf("ë‘ ìˆ˜ì˜ í•© : %d\n", a + b);
+	//printf("ë‘ ìˆ˜ì˜ ì°¨ : %d\n", a - b);
+	//printf("ë‘ ìˆ˜ì˜ ê³± : %d\n", a * b);
+	//printf("ë‘ ìˆ˜ì˜ ëª« : %d\n", a / b);
+	//printf("ë‘ ìˆ˜ì˜ ë‚˜ë¨¸ì§€ : %d\n", a % b);
 
-	// ´ëÀÔ ¿¬»êÀÚ
+	// ëŒ€ì… ì—°ì‚°ì
 	//int a = 5;
 	//int b = 3;
 
@@ -27,7 +27,7 @@ void main() {
 	//a /= b;
 	//printf("%d\n", a); // 5
 
-	// Áõ°¨ ¿¬»êÀÚ
+	// ì¦ê° ì—°ì‚°ì
 	//int a = 0;
 	//int b = 0;
 
@@ -45,7 +45,7 @@ void main() {
 	//printf("%d\n", b--); // 10
 	//printf("%d\n", b); // 9
 
-	// °ü°è ¿¬»êÀÚ
+	// ê´€ê³„ ì—°ì‚°ì
 	//int a = 10;
 	//int b = 11;
 	//int c = 12;
@@ -56,7 +56,7 @@ void main() {
 	//printf("%d\n", a >= c); // 0 (false)
 	//printf("%d\n", a == d); // 1 (true)
 
-	// ³í¸® ¿¬»êÀÚ
+	// ë…¼ë¦¬ ì—°ì‚°ì
 	int a = 10;
 	int b = 11;
 	int c = 12;

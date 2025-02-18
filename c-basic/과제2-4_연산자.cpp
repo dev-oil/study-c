@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-// »ç¿ëÀÚ·ÎºÎÅÍ µÎ °³ÀÇ Á¤¼ö¸¦ ÀÔ·Â ¹Þ¾Æ »çÄ¢ ¿¬»êÀÇ °á°ú¸¦ Ãâ·ÂÇØº¸ÀÚ.
-// »ç¿ëÀÚ ÀÔ·ÂÀ» °¢°¢ 4¿Í 2¸¦ ÀÔ·ÂÇÏ¿´À» ¶§, Ãâ·Â °á°úÀÇ ÇüÅÂ´Â ´ÙÀ½°ú °°´Ù.
-// µÎ¼öÀÇ ÇÕ / Â÷ / °ö / ³ª¸ÓÁö
+// ì‚¬ìš©ìžë¡œë¶€í„° ë‘ ê°œì˜ ì •ìˆ˜ë¥¼ ìž…ë ¥ ë°›ì•„ ì‚¬ì¹™ ì—°ì‚°ì˜ ê²°ê³¼ë¥¼ ì¶œë ¥í•´ë³´ìž.
+// ì‚¬ìš©ìž ìž…ë ¥ì„ ê°ê° 4ì™€ 2ë¥¼ ìž…ë ¥í•˜ì˜€ì„ ë•Œ, ì¶œë ¥ ê²°ê³¼ì˜ í˜•íƒœëŠ” ë‹¤ìŒê³¼ ê°™ë‹¤.
+// ë‘ìˆ˜ì˜ í•© / ì°¨ / ê³± / ë‚˜ë¨¸ì§€
 
 void main() {
 	int a = 0;
@@ -10,8 +10,8 @@ void main() {
 
 	scanf_s("%d%d", &a, &b);
 
-	printf("µÎ ¼öÀÇ ÇÕ : %d\n", a + b);
-	printf("µÎ ¼öÀÇ Â÷ : %d\n", a - b);
-	printf("µÎ ¼öÀÇ °ö : %d\n", a * b);
-	printf("µÎ ¼öÀÇ ³ª¸ÓÁö : %d\n", a % b);
+	printf("ë‘ ìˆ˜ì˜ í•© : %d\n", a + b);
+	printf("ë‘ ìˆ˜ì˜ ì°¨ : %d\n", a - b);
+	printf("ë‘ ìˆ˜ì˜ ê³± : %d\n", a * b);
+	printf("ë‘ ìˆ˜ì˜ ë‚˜ë¨¸ì§€ : %d\n", a % b);
 }
