@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Downloads\과제4-1_반복문_switch.cpp">
+    <ClCompile Include="과제4-3_반복문.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\Downloads\과제4-2_반복문_switch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\과제4-1_반복문_switch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\과제3-8_분기문.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\Downloads\0_hello_world.cpp">
@@ -40,9 +46,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\Downloads\과제1-1_서식문자열.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\과제3-8_분기문.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\Downloads\과제3-7_분기문.cpp">
@@ -78,7 +81,7 @@
     <ClCompile Include="..\..\..\..\..\Downloads\과제2-3_입출력.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="과제4-3_반복문.cpp">
+    <ClCompile Include="2_연산자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
