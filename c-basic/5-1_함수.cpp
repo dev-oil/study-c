@@ -12,11 +12,25 @@ int Add(int a,int b) // 전달 인자, 매개 변수, 파라미터, 인수 // �
 //	 return a + b;
 // }
 
+void print_Start()
+{
+	printf("============= Programming Start ==========");
+	printf("두 개의 정수를 입력하시오 :");
+}
+
+void print_Hap(int result)
+{
+	printf("두 수의 합은 %d 입니다.\n",result);
+	printf("============= Programming End ==========");
+}
+
+
 void  main() // entry point
 {
 	int x = 10;
 	int y = 20;
 
+	print_Start();
 	int hap = Add(x, y);
-	printf("%d\n", hap);
+	print_Hap(hap);
 }

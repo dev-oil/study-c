@@ -84,7 +84,7 @@
     <ClCompile Include="과제4-3_반복문.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="5_함수.cpp">
+    <ClCompile Include="5-1_함수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="과제4-4_반복문.cpp">
@@ -106,6 +106,30 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="과제4-10_반복문.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제5-1_함수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제5-2_함수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제5-3_함수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제5-4_함수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제5-5_함수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제5-6_함수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5-2_함수_stack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5-3_함수_global.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
