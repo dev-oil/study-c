@@ -8,6 +8,7 @@ void main(void)
 
 	// 구조체 (array)
 	int array1[5] = {10,20,30, 40, 50};
+	int array3[] = {10,20,30,40,50};
 	int array2[5];
 
 	for(int i = 0; i < 5; i++) {
