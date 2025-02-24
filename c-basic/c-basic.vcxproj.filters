@@ -150,5 +150,8 @@
     <ClCompile Include="과제6-2_배열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="과제8-1_포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
