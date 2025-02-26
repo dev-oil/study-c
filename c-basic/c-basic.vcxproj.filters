@@ -168,5 +168,8 @@
     <ClCompile Include="10_함수와_포인터.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11_여러가지_포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
