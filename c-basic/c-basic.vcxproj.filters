@@ -195,5 +195,20 @@
     <ClCompile Include="과제11-2_여러가지포인터.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="12_구조체.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제11-3_여러가지포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13_공용체.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제11-4_여러가지포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제11-5_여러가지포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
