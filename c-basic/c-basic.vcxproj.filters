@@ -159,7 +159,7 @@
     <ClCompile Include="과제8-3_포인터.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="과제8-4_포인터.cpp">
+    <ClCompile Include="과제8-4_배열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="9_포인터와_배열.cpp">
@@ -169,6 +169,30 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="11_여러가지_포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제8-5_포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제10-1_함수와_포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제10-2_함수와_포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제10-3_함수와_포인ㅌㅓ.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제10-4_함수와_포인터_값.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제10-5_함수와_포인터_참조.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제11-1_여러가지포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제11-2_여러가지포인터.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
