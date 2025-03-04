@@ -25,9 +25,9 @@ void main()
 
 	printf("배열의 주소 출력: ");
 	for(int i = 0; i < size; i++) {
-		printf("%x ",(void*)&arr[i]);  // 주소 출력 시 %p 사용
+		printf("%x ",&arr[i]);
 	}
 	printf("\n");
 
-	printf("배열의 이름 출력: %x\n",(void*)arr); // 배열의 이름 출력
+	printf("배열의 이름 출력: %x\n",arr);
 }
